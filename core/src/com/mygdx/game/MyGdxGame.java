@@ -22,6 +22,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 	@Override
 	public void render () {
+
 		ScreenUtils.clear(0, 0, 0, 1);
 
 		if (Gdx.input.isButtonJustPressed(Input.Buttons.LEFT)) clk++;
